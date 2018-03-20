@@ -1,0 +1,36 @@
+<main>
+  <div class="titleImage">
+    <img class="titleImage" src="images/sushi.svg" />
+  </div>
+  <h1>{{title}}</h1>
+  <hr/>
+  <div class="container">
+    <div class="row" id="list">
+      <div class="col-sm item"></div>
+      <div class="col-sm item"></div>
+      <div class="col-sm item"></div>
+    </div>
+    <hr>
+    <h2>Panier</h2>
+    <div class="row">
+      <div class="col-sm cart">
+        <table class="table table-dark" id="total">
+          <tbody>
+            <tr>
+              <td></td>
+              <th scope="row"></th>
+              <td>HT</td>
+              <td id="total-ht">0€</td>
+            </tr>
+            <tr>
+              <td></td>
+              <th scope="row"></th>
+              <td>TTC</td>
+              <td id="total-ttc">0€</td>
+            </tr>
+          </tbody>
+        </table>
+        <button class="btn btn-primary" id="order">Payer</button>
+      </div>
+    </div>
+</main>
